@@ -77,6 +77,7 @@ section {
 .img1 {
   max-width: 500px;
   border-radius: 5px;
+  aspect-ratio: 5 / 3;
 }
 
 main h2 {
@@ -191,6 +192,7 @@ h5 + p {
 
 .grid-2-columns {
   grid-template-columns: 1fr 1fr;
+  padding-bottom: 15px;
 }
 
 .embed {
@@ -200,6 +202,19 @@ h5 + p {
 
 .bar-header.grid {
   grid-gap: 0;
+}
+
+.gallery {
+  margin: 30px 50px;
+}
+
+.gallery h2,
+.gallery h3 {
+  text-align: center;
+}
+
+.gallery h3 {
+  padding-bottom: 50px;
 }
 
 footer {
@@ -276,8 +291,12 @@ footer a {
     padding-top: 40px;
   }
 
+  .grid-3-columns {
+    margin: 0;
+  }
+
   main {
-    margin: 100px 10px;
+    margin: 90px 10px;
   }
 
   .section-1 {
@@ -290,7 +309,7 @@ footer a {
   }
 
   img {
-    width: 100%;
+    width: 90%;
   }
 
   .bar-image {
@@ -299,5 +318,8 @@ footer a {
 
   .embed {
     aspect-ratio: 16 / 9;
+  }
+  .gallery {
+    max-width: 100px;
   }
 }
